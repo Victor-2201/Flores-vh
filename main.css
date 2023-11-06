@@ -20,6 +20,21 @@ body {
   perspective: 1000px;
 }
 
+.texto{
+  z-index: 1;
+  font-size: large;
+  text-align: center;
+  color: rgb(231, 219, 219);
+  align-items: center;
+  width: 500px;
+  left: 50%;
+  top: 0;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-1600%);
+}
+
 .night {
   position: fixed;
   left: 50%;
